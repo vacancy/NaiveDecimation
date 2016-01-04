@@ -17,6 +17,8 @@
 
 namespace decimation {
 
+// {{{ Begin file: include/kd.h
+
 /**
  * Using CRTP mode to inherit.
  **/
@@ -39,6 +41,8 @@ struct KDCompareBase {
 
     virtual bool operator ()(const ptr_t &lhs, const ptr_t &rhs) const = 0;
 };
+
+// }}} End file: include/kd.h
 
 template <typename T>
 class VecKDTree {
