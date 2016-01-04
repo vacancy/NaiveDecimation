@@ -1,8 +1,8 @@
 # NaiveDecimation
 A naive implementation of triangle mesh decimation.
 
-This project is the school project ``Mesh Decimation'' of course ``Advanced Computational Geometry'' given by
-Shimin Hu, Tsinghua University.
+This project is the school project ``Mesh Decimation`` of course ``Advanced Computational Geometry`` given by
+``Shimin Hu, Tsinghua University``.
 
 This project implements the algorithm based on the following paper:
 
