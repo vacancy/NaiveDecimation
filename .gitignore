@@ -6,4 +6,5 @@
 bin/
 obj/
 test/
+VacTeX/
 .idea/
