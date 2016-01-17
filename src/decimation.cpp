@@ -218,6 +218,7 @@ TriangleMesh *Decimator::decimate(TriangleMesh *&origin) {
     delete origin;
 
     origin = res;
+    return origin;
 }
 
 } // End namespace decimation

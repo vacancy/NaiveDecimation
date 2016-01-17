@@ -13,6 +13,7 @@
 #include "linalg.h"
 #include "model.h"
 #include "veckd.h"
+#include "pq.h"
 #include <queue>
 
 namespace decimation {
@@ -53,6 +54,7 @@ public:
         }
     };
 
+    //typedef PriorityQueue<VertexPair> queue_t;
     typedef std::priority_queue<VertexPair> queue_t;
     typedef VecKDTree<Vertex> kdtree_t;
 
